@@ -10,6 +10,7 @@ import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.widget.Toast
 import com.example.newsfinal.Interface.ServiceInterface
+import com.example.newsfinal.Model.News
 import com.example.newsfinal.Services.ServiceVolley
 import com.google.gson.Gson
 
@@ -37,7 +38,7 @@ class ListNews : Fragment() {
             super.onViewCreated(view, savedInstanceState)
             list_recycler_view.apply {
                 layoutManager = LinearLayoutManager(activity) as RecyclerView.LayoutManager?
-                adapter = ListNewsAdapter(listOfNews, { partItem : News  -> partItemClicked(partItem) })
+                adapter = ListNewsAdapter(listOfNews, { partItem : News -> partItemClicked(partItem) })
                 mAdapter = adapter as ListNewsAdapter
                 }
             getListNews(categorie)
