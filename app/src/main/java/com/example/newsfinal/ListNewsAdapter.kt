@@ -6,6 +6,11 @@ import android.support.v7.widget.RecyclerView
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.example.newsfinal.Model.News
+import android.support.annotation.NonNull
+import com.google.android.gms.tasks.OnFailureListener
+import com.google.firebase.storage.FileDownloadTask
+import com.google.android.gms.tasks.OnSuccessListener
+import java.io.File
 
 
 class ListNewsAdapter(private var list: List<News>?, val clickListener: (News) -> Unit) : RecyclerView.Adapter<ListNewsAdapter.NewsViewHolder>() {
@@ -55,6 +60,7 @@ class ListNewsAdapter(private var list: List<News>?, val clickListener: (News) -
             mDescView?.text = news.description
             mDateView?.text = news.date
             mcategorieView?.text = news.categorie
+
 
             Glide.with(context).load(news.image).into(mImageView)
         }

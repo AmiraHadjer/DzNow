@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1073519961923",
+    "firebase_url": "https://dznow-855f6.firebaseio.com",
+    "project_id": "dznow-855f6",
+    "storage_bucket": "dznow-855f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073519961923:android:59cafdac34a76249",
+        "android_client_info": {
+          "package_name": "com.esi.dzNow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073519961923-arani6g8m45tsrhhk8d87n0simi8d7lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmL__WFgkmTVAYU-FqnO24pGYTG6Q6pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073519961923-arani6g8m45tsrhhk8d87n0simi8d7lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073519961923:android:1103609bebce09d4",
+        "android_client_info": {
+          "package_name": "com.example.newsfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073519961923-ukh4f2mtmad8orbb6q3g0r1tleensgcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsfinal",
+            "certificate_hash": "80b3521a7b41032f113e17175f5077bca121a6e9"
+          }
+        },
+        {
+          "client_id": "1073519961923-arani6g8m45tsrhhk8d87n0simi8d7lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmL__WFgkmTVAYU-FqnO24pGYTG6Q6pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073519961923-arani6g8m45tsrhhk8d87n0simi8d7lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
